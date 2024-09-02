@@ -67,6 +67,7 @@ a {
 
 .content-image-mouse {
     width: 50vw;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.76));
 }
 
 div > h1 {
