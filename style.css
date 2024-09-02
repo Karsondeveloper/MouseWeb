@@ -4,7 +4,9 @@
 :root {
     --cor-background: #222222;
     --cor-destaque: #20B4FC;
+    --cor-destque-bluer: #26b7ff65;
     --cor-card-elements: #4E4E4E;
+    --cor-card-elements-bluer: #6d6d6d;
     --cor-background-dark: #111111;
     --cor-destaque-text: #ffffff;
 }
@@ -118,4 +120,38 @@ div > h4 {
     cursor: pointer;
     text-align: center;
 }
- 
+
+.content-image {
+    margin-top: 9.375rem;
+    text-align: center;
+}
+
+.center-firt-x {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--cor-destque-bluer);
+}
+
+.center-firt {
+    margin-top: -3rem;
+    font-size: 1.3rem;
+    color: var(--cor-card-elements-bluer);
+}
+
+.image-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+}
+
+.image-group-chair {
+    height: 480px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px var(--cor-card-elements-bluer);
+}
+
+
