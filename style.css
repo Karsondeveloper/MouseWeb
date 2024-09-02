@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-background: #222222;
+    --cor-destaque: #20B4FC;
+    --cor-card-elements: #4E4E4E;
+    --cor-background-dark: #111111;
+    --cor-destaque-text: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: scroll;
+    background-color: var(--cor-background);
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    color: var(--cor-destaque-text);
+}
+
+header {
+    background-color: var(--cor-background);
+    /* padding: 6.875rem; */
+}
+
+#logotech {
+    margin-left: 7.125rem;
+    color: var(--cor-destaque);
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4.10rem;
+    padding-top: 20px;    
+}
+
+a:hover {
+    color: var(--cor-destaque);
+    transition: .5s;
+    text-decoration: overline;
+}
+
+a {
+    color: var(--cor-destaque-text);
+    margin: 15px;
+    text-decoration: none;  
+}
+
+.content-infor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-infor-left {
+    padding-top: calc(6.875rem-15px);
+    margin-left: 7.125rem;
+    font-size: 1.2rem;
+    width: 50vw;
+} 
+
+.content-image-mouse {
+    width: 50vw;
+}
+
+div > h1 {
+    color: var(--cor-destaque-text);
+}
+
+div > h3 {
+    color: var(--cor-card-elements);
+    margin-bottom: 1.1rem;
+}
+
+div > h4 {
+    margin-bottom: 1.1rem;
+    margin-top: 1.1rem;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: var(--cor-destaque);
+}
+
+.button-container {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin-left: 7.125rem;
+    margin-top: -85px;
+    gap: 10px;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    border: 2px solid var(--cor-destaque-text);
+    background-color: transparent;
+    color: var(--cor-destaque-text);
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: var(--cor-destaque);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+ 
