@@ -23,6 +23,7 @@ body {
     background-color: var(--cor-background);
     font-family: Raleway, Arial, Helvetica, sans-serif;
     color: var(--cor-destaque-text);
+    height: 500vh;
 }
 
 header {
@@ -174,8 +175,10 @@ div > h4 {
     background-color: var(--cor-card-elements);
     padding: 20px;
     text-align: right;
-    width: 590px;
-    height: 150px;
+    min-width: 590px;
+    min-height: 150px;
+    /* width: 590px;
+    height: 150px; */
     margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -185,5 +188,16 @@ div > h4 {
     text-align: center;
 }
 
+.content-input-right {
+    display: flex;
+    justify-content: right;
+    margin-right: 208px;   
+}
 
+.forms {
+    background-color: var(--cor-card-elements);
+    position: absolute;
+    border-radius: 8px;
+    padding: 150px;
+}
 
