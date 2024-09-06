@@ -19,11 +19,11 @@
 }
 
 body {
-    overflow-y: scroll;
+    overflow-y: auto;
     background-color: var(--cor-background);
     font-family: Raleway, Arial, Helvetica, sans-serif;
     color: var(--cor-destaque-text);
-    height: 500vh;
+    /* height: 500vh; */
 }
 
 header {
@@ -189,19 +189,48 @@ div > h4 {
 }
 
 .content-formulario {
-    /* width: 590px;
-    height: 150px;
-    display: flex; */
     margin: auto;
-    /* align-items: center;
-    margin-left: 260px; */
 }
 
 .form-right {
-    background-color: var(--cor-destaque);
-    position: absolute;
-    width: 590px;
+    /* background-color: var(--cor-destaque); */
+    width: 790px;
     height: 250px;
     margin: auto;
-    
+    padding: 30px;
+}
+
+input {
+    width: 280px;
+    padding: 13px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    color: var(--cor-destaque-text);
+    background-color: var(--cor-card-elements);
+}
+
+textarea {
+    width: 565px;
+    height: 300px;
+    padding: 13px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    color: var(--cor-destaque-text);
+    background-color: var(--cor-card-elements);
+}
+
+#email {
+    width: 565px;
+}
+
+#btn-enviar {
+    width: 200px;
+}
+
+.card-about-us {
+    background-color: var(--cor-background-dark);
+    height: 380px;
+    margin-top: 450px;
 }
