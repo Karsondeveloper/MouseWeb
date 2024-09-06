@@ -188,16 +188,20 @@ div > h4 {
     text-align: center;
 }
 
-.content-input-right {
-    display: flex;
-    justify-content: right;
-    margin-right: 208px;   
+.content-formulario {
+    /* width: 590px;
+    height: 150px;
+    display: flex; */
+    margin: auto;
+    /* align-items: center;
+    margin-left: 260px; */
 }
 
-.forms {
-    background-color: var(--cor-card-elements);
+.form-right {
+    background-color: var(--cor-destaque);
     position: absolute;
-    border-radius: 8px;
-    padding: 150px;
+    width: 590px;
+    height: 250px;
+    margin: auto;
+    
 }
-
